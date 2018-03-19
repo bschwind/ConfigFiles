@@ -18,3 +18,10 @@ alias monitorPort='sudo tcpdump -i any port $1'
 alias unix='date -r $1'
 alias now='date +%s'
 alias docker-clean='docker rm $(docker ps -q -f status=exited)'
+
+# Git stuff
+alias gs='git status'
+alias ga='git add'
+alias gd='git diff'
+alias gb='git branch'
+alias gpom='git pull origin master'
