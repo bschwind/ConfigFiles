@@ -1,7 +1,12 @@
 PS1=$'\e[1;34m%n \e[0;32m%1~ \e[1;31m$ \e[0m'
 
+# Make autocomplete less annoying
 setopt noautomenu
 setopt nomenucomplete
+
+# Move cursor by word
+autoload -U select-word-style
+select-word-style bash
 
 # Aliases
 alias ls='ls -G'
