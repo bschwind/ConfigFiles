@@ -1,3 +1,7 @@
+PS1=$'\e[1;34m%n \e[0;32m%1~ \e[1;31m$ \e[0m'
+
+setopt noautomenu
+setopt nomenucomplete
 
 # Aliases
 alias ls='ls -G'
