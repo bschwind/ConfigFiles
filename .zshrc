@@ -1,8 +1,14 @@
-PS1=$'\e[1;34m%n \e[0;32m%1~ \e[1;31m$ \e[0m'
+PS1=$'%F{4}%n%f %F{2}%1~%f %F{1}$%f '
 
 # Make autocomplete less annoying
 setopt noautomenu
 setopt nomenucomplete
+
+# Disable autocomplete for git
+autoload -Uz compinit
+autoload -U compdef
+compinit
+compdef -d git
 
 # Move cursor by word
 autoload -U select-word-style
