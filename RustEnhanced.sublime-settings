@@ -1,0 +1,7 @@
+{
+	"extensions":
+	[
+		"wgsl"
+	],
+	"rust_syntax_checking_include_tests": true
+}
