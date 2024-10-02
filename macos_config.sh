@@ -1,3 +1,5 @@
+set -x # echo on
+
 # Set Dark Mode
 defaults write NSGlobalDomain AppleInterfaceStyle -string Dark
 
