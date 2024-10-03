@@ -48,3 +48,6 @@ alias gd='git diff'
 alias gb='git branch'
 alias gpom='git pull origin main'
 alias gitHistory='git log --full-history -- $1'
+
+# Stop homebrew from auto-updating
+export HOMEBREW_NO_AUTO_UPDATE=1
